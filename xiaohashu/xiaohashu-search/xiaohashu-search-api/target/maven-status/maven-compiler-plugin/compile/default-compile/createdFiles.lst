@@ -1,0 +1,6 @@
+com\quanxiaoha\xiaohashu\constant\ApiConstants.class
+com\quanxiaoha\xiaohashu\dto\RebuildNoteDocumentReqDTO$RebuildNoteDocumentReqDTOBuilder.class
+com\quanxiaoha\xiaohashu\dto\RebuildNoteDocumentReqDTO.class
+com\quanxiaoha\xiaohashu\dto\RebuildUserDocumentReqDTO.class
+com\quanxiaoha\xiaohashu\dto\RebuildUserDocumentReqDTO$RebuildUserDocumentReqDTOBuilder.class
+com\quanxiaoha\xiaohashu\api\SearchFeignApi.class

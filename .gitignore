@@ -1,41 +1,13 @@
-# 环境配置文件（绝对不能上传）
-.env
-.env.local
-.env.development
-.env.production
-.env.*.local
+# Spring Boot配置文件（所有子模块都生效）
+**/application.yml
+**/application-dev.yml
+**/application-prod.yml
+**/application-test.yml
+**/bootstrap.yml
+**/bootstrap-dev.yml
+**/bootstrap-prod.yml
+**/bootstrap-test.yml
 
-# 依赖
-node_modules/
-.pnp
-.pnp.js
-
-# 构建输出
-dist/
-build/
-.output/
-.nuxt/
-
-# 临时文件
-.cache/
-.parcel-cache/
-.eslintcache
-*.log
-*.tmp
-*.bak
-
-# IDE和编辑器
-.idea/
-.vscode/
-*.swp
-*.swo
-*~
-.DS_Store
-Thumbs.db
-
-# 其他
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-pnpm-debug.log*
-lerna-debug.log*
+# 保留模板文件
+!**/*.yml.example
+!**/*.yaml.example
